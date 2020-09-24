@@ -8,3 +8,5 @@
 4. [变量、作用域和内存问题(下)](https://github.com/A-cabbage/javascript/issues/5)
 5. [创建对象](https://github.com/A-cabbage/javascript/issues/6)
 6. [继承](https://github.com/A-cabbage/javascript/issues/7)
+7. [函数(上)](https://github.com/A-cabbage/javascript/issues/8)
+8. [函数(下)](https://github.com/A-cabbage/javascript/issues/9)
