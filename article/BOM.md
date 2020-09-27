@@ -47,6 +47,7 @@
  
  document.body.clientWidth      //返回浏览器视口大小(混杂模式)
  
+ //获取浏览器视口大小
  var pageWidth = window.innerWidth,
      pageHeight = window.innerHeight;
  if(typeof pageWidth != 'number') {
