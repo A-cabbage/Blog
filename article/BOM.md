@@ -62,4 +62,45 @@
  
  ```
  
+ ## location对象
+ 
+ https://github.com/A-cabbage/JavaScript/edit/master/article/BOM.md?q=javascript#testHash
+ 
+ | 属性名 | 值 | 说明 |
+ | --- | --- | --- |
+ | hash | #testHash | 返回URL中#后面的字符串 |
+ | host | github.com | 返回服务器名称和端口号 |
+ | hostname | github.com | 返回不带端口号的服务器名称 | 
+ | href | http://github.com/A-cabbage/JavaScript/edit/master/article/BOM.md?q=javascript#testHash | 返回当前页面完整的URL |
+ | pathname | /A-cabbage/JavaScript/edit/master/article/BOM.md | 返回URL中的目录或文件名 |
+ | port | "" | 返回URL中指定的端口号，如果不含端口号则返回空字符串 |
+ | protocol | https | 返回页面使用的协议 |
+ | search | ?q=javascript | 返回URL中查询字符串，这个字符串以问号开头 |
+ 
+ 我们可以通过字面量访问对象的形式来重新为location对象的属性赋值，并且除了hash外，改变其他属性值都会导致页面的重载。  
+ 
+ ## history对象
+ history对象保存着用户上网的历史记录，借助history可以实现页面前进和后退。  
+ 
+ histroy.length属性表示历史记录的数量。  
+ 
+ 使用history.go()方法可以在用户的历史记录中任意跳转。go()方法接受一个参数，表示向前或向后跳转的页面数的一个整数值。如果这个整数值大于histroy.length值或小于histroy.length值的相反数，则go()方法什么也不做  
+ ```
+ history.go(-1)          //后退一页
+ 
+ histroy.go(-100)         //不做任何处理
+ 
+ history.go(2)           //前进两页
+ 
+ history.go(100)         //不做任何处理
+ ```
+ 也可以给go()方法传递一个字符串参数，此时会跳转到包含该字符串最近的一个位置，可能是后退也可能是前进。如果不包含这个字符串，则go()方法什么也不做  
+ 
+ history提供了back()和forward()方法用来模仿浏览器的后退和前进。
+ ```
+ history.back()    //后退一页
+ 
+ history.forward()  //前进一页
+ ```
+ 
  
