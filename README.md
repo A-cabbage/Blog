@@ -10,3 +10,4 @@
 6. [继承](https://github.com/A-cabbage/javascript/issues/7)
 7. [函数(上)](https://github.com/A-cabbage/javascript/issues/8)
 8. [函数(下)](https://github.com/A-cabbage/javascript/issues/9)
+9. [BOM](https://github.com/A-cabbage/javascript/issues/10)
