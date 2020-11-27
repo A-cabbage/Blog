@@ -17,6 +17,6 @@
 
 ### 数据结构与算法笔记
 
-1. [栈]
-2. [队列]
-3. [链表]
+1. [栈](https://github.com/A-cabbage/javascript/issues/11)
+2. [队列](https://github.com/A-cabbage/javascript/issues/12)
+3. [链表](https://github.com/A-cabbage/javascript/issues/13)
